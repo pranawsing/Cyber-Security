@@ -1,7 +1,8 @@
 <?php
-$to = "pranawkumar67@gmail.com";
+$to = "";
 $subject = "Email Spoofing Test";
 $txt = "This is Email Spoofing";
-$headers = "From: pranawsinghyui@gmail.com";
+$headers = "From: ";
 mail ($to, $subject, $txt, $headers);
+
 ?>
